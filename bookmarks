@@ -1,0 +1,10 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("wrap"
+ (filename . "~/projects/ruby/picard/lib/picard/ast_helper.rb")
+ (front-context-string . "ef wrap_assertio")
+ (rear-context-string . "t\n    end\n\n    d")
+ (position . 391))
+)

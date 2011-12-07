@@ -1,0 +1,41 @@
+
+;; ----- smex-history -----
+(
+ delete-trailing-whitespace
+ menu-bar-showhide-tool-bar-menu-customize-enable-right
+ set-fringe-style
+ fringe-mode
+ shrink-window-if-larger-than-buffer
+ goto-line
+ save-buffer
+)
+
+;; ----- smex-data -----
+(
+ (package-install . 11)
+ (package-refresh-contents . 1)
+ (cua-mode . 3)
+ (split-window-vertically . 1)
+ (quit-window . 3)
+ (flymake-mode . 4)
+ (whitespace-mode . 2)
+ (enable-theme . 5)
+ (eval-buffer . 4)
+ (eval-region . 2)
+ (recentf-open-files . 1)
+ (lisp-mode . 1)
+ (run-lisp . 2)
+ (clojure-jack-in . 6)
+ (eshell . 2)
+ (color-theme-solarized-light . 6)
+ (global-linum-mode . 1)
+ (hl-line-mode . 1)
+ (save-buffer . 2)
+ (column-number-mode . 1)
+ (goto-line . 1)
+ (shrink-window-if-larger-than-buffer . 1)
+ (fringe-mode . 1)
+ (set-fringe-style . 1)
+ (menu-bar-showhide-tool-bar-menu-customize-enable-right . 1)
+ (delete-trailing-whitespace . 1)
+)

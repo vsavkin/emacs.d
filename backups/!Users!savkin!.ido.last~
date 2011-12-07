@@ -1,0 +1,99 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/" . "savkin/")
+ ("/" . "Users/")
+ ("/Users/savkin/bin/shell/" . "zsh/")
+ ("/Users/savkin/bin/" . "dotfiles/")
+ ("/Users/savkin/projects/clojure/robots/src/" . "robots/")
+ ("/Users/savkin/projects/clojure/robots/" . "src/")
+ ("/Users/savkin/projects/ruby/picard/" . "lib/")
+ ("/Users/savkin/projects/ruby/" . "picard/")
+ ("/Users/savkin/projects/clojure/" . "robots/")
+ ("/Users/savkin/projects/" . "ruby/")
+ ("/Users/savkin/" . "Documents/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/savkin/.emacs.d/"
+ "/Users/savkin/projects/ruby/picard/lib/picard/"
+ "/Users/savkin/Documents/"
+ "/Users/savkin/projects/clojure/robots/src/robots/"
+ "/Users/savkin/"
+ "/Users/savkin/bin/shell/zsh/"
+ "/Users/savkin/projects/clojure/robots/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ "ast_helper.rb"
+ "english.txt"
+ "core.clj"
+ "words.txt"
+ ".eclipse_keyring"
+ "env"
+ "class_ripper.rb"
+ "assertion_wrapper.rb"
+ "project.clj"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/savkin/" (20188 10337) "Sites/" "share/" "Public/" "projects/" "Pictures/" "pgadmin.log" "Music/" "Movies/" "Library/" "Downloads/" "Documents/" "diary/" "dev/" "Desktop/" "bin/" ".zshrc.backup]" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump" ".Xcode/" ".Xauthority" ".vmc_token" ".vmc_target" ".vimrc.old" ".vimrc" ".viminfo" ".vimbackup/" ".vim.old/" ".vim/" ".Trash/" ".subversion_IDEA/" ".subversion/" ".ssh/" ".sqlline/" ".slime-history.eld" ".scala_history" ".rvmrc" ".rvm/" ".redcar/" ".recentf" ".profile" ".pgpass" ".pentaho/" ".oh-my-zsh/" ".NERDTreeBookmarks" ".nchsoftware/" ".mysql_history" ".m2/" ".lein/" ".lbdsl/" ".kettle/" ".jline-clojure.main.history" ".ivy2/" ".irb_history" ".irb-history" ".ido.last" ".hgrc" ".heroku/" ".gvimrc.old" ".gvimrc" ".groovy/" ".grails/" ".gradle/" ".gnupg/" ".gitconfig" ".gem/" ".fontconfig/" ".erlang.cookie" ".emacs.d.backup/" ".emacs.d/" ".eclipse_keyring" ".DS_Store" ".CFUserTextEncoding" ".cfir$$.$$$" ".bash_profile.macports-saved_2011-07-27_at_20:50:58" ".bash_profile" ".bash_history" "../" "./")
+
+ ("/Users/savkin/projects/ruby/picard/lib/picard/" (20189 35026) "version.rb" "test_unit.rb" "s_expression_sugar.rb" "preprocessor.rb" "method_ripper.rb" "extensions.rb" "error_message_formatter.rb" "context.rb" "class_ripper.rb" "ast_helper.rb" "assertion_wrapper.rb" ".#ast_helper.rb" "#class_ripper.rb#" "#ast_helper.rb#" "../" "./")
+
+ ("/Users/savkin/.emacs.d/" (20186 58373) "vendor/" "url/" "swank/" "places" "init.el" "eshell/" "elpa/" "backups/" "auto-save-list/" ".smex-items" "../" "./")
+
+ ("/Users/savkin/Documents/" (20184 15424) "words.txt" "Thank You - Apple Store (Canada).pdf" "RubyMine.docx" "resolve-strategies.pages" "mindmaps/" "Microsoft User Data/" "luciddb.ktr" "earthburn.vim" "dw.docx" "diary/" "dci-groovy.pages" "contacts.docx" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/savkin/projects/clojure/robots/src/robots/" (20183 32276) "core.clj" ".#core.clj" "#core.clj#" "../" "./")
+
+ ("/Users/" (20009 26609) "Shared/" "savkin/" ".localized" "../" "./")
+
+ ("/Applications/" (20176 23559) "VMware Fusion.app/" "uTorrent.app/" "Utilities/" "Twitter.app/" "Time Machine.app/" "TextEdit.app/" "System Preferences.app/" "STS" "Stickies.app/" "Skype.app/" "SimplyRAR.app/" "Safari.app/" "RubyMine 3.2.4.app/" "RescueTime.app/" "Remote Desktop Connection.app/" "QuickTime Player.app/" "Preview.app/" "Photo Booth.app/" "pgAdmin3.app/" "Nirvana2.app/" "Nika-IU-110.291.app/" "Mission Control.app/" "MindNode.app/" "Microsoft Silverlight/" "Microsoft Office 2011/" "Microsoft Messenger.app/" "Mail.app/" "MacVim.app/" "MacPorts/" "Launchpad.app/" "jEdit.app/" "iWork '09/" "iWeb.app/" "iTunes.app/" "iTerm.app/" "iPhoto.app/" "IntelliJ IDEA 10.app/" "Install Xcode.app/" "iMovie.app/" "Image Capture.app/" "iDVD.app/" "iChat.app/" "iCal.app/" "Google Chrome.app/" "Gimp.app/" "GarageBand.app/" "Font Book.app/" "focus booster.app/" "FaceTime.app/" "Evernote.app/" "Emacs.app/" "DVD Player.app/" "DivX Player.app/" "DivX Converter.app/" "DivX/" "Dictionary.app/" "Dashboard.app/" "Chess.app/" "Camtasia.app/" "Calculator.app/" "Automator.app/" "Aurora.app/" "Aquamacs.app/" "App Store.app/" "Adobe Reader.app/" "Adobe/" "Adium.app/" "Address Book.app/" "\\Work\\indextest.txt" "1Password.app/" ".localized" ".DS_Store" "../" "./")
+
+ ("/Applications/Emacs.app/" (20142 6629) "Contents/" "../" "./")
+
+ ("/Applications/Emacs.app/Contents/" (20142 6629) "Resources/" "PkgInfo" "MacOS/" "Info.plist" "../" "./")
+
+ ("/Applications/Emacs.app/Contents/MacOS/" (20142 8225) "libexec/" "Emacs" "bin/" "../" "./")
+
+ ("/Users/savkin/bin/shell/zsh/" (20168 4636) "zshrc" "env" "config" "aliases" "../" "./")
+
+ ("/Users/savkin/bin/shell/" (20063 30484) "zsh/" ".git/" "../" "./")
+
+ ("/Users/savkin/projects/clojure/robots/" (20177 12451) "test/" "target/" "src/" "robots.iml" "README" "project.clj" "pom.xml" "lib/" "classes/" ".lein-failures" ".lein-deps-sum" ".idea/" ".gitignore" ".DS_Store" "#project.clj#" "../" "./")
+
+ ("/Users/savkin/projects/clojure/robots/src/" (20168 2205) "robots/" "../" "./")
+
+ ("/Users/savkin/projects/clojure/robots/lib/" (20168 4708) "clojure-1.3.0.jar" "../" "./")
+
+ ("/Users/savkin/bin/" (20168 2168) "shell/" "rvmsudo" "rvm-shell" "rvm-prompt" "rvm-installer" "rvm-exec" "rvm-auto-ruby" "rvm" "mvim" "lein" "dotfiles/" "clean-vim" "../" "./")
+
+ ("/Users/savkin/bin/dotfiles/" (20176 21880) "vim/" "emacs/" "../" "./")
+
+ ("/Users/savkin/bin/dotfiles/emacs/" (20176 21894) "emacs-color-theme-solarized/" "../" "./")
+
+ ("/Users/savkin/bin/dotfiles/emacs/emacs-color-theme-solarized/" (20176 22010) "solarized-light-theme.el" "solarized-definitions.el" "solarized-dark-theme.el" "README.md" "makepkg.sh" "LICENSE" "color-theme-solarized.el" "color-theme-solarized-pkg.el" ".git/" "../" "./")
+
+ ("/Users/savkin/projects/ruby/picard/lib/" (20130 63435) "picard_02.rb" "picard.rb" "picard/" "../" "./")
+
+ ("/Users/savkin/projects/ruby/picard/" (20130 64333) "test/" "README.markdown" "Rakefile" "pkg/" "picard.gemspec" "lib/" "Gemfile.lock" "Gemfile" ".idea/" ".gitignore" ".git/" ".bundle/" "../" "./")
+
+ ("/Users/savkin/projects/ruby/" (20163 8242) "writer/" "victorsavkin/" "vi3/" "rmilk/" "rails31jruby_h2/" "rails31jruby/" "playground/" "picard/" "performance/" "oald_parser/" "lew/" ".DS_Store" "../" "./")
+
+ ("/Users/savkin/projects/clojure/" (20168 4758) "robots/" ".DS_Store" "../" "./")
+
+ ("/Users/savkin/.emacs.d/elpa/" (20176 8602) "starter-kit-ruby-2.0.1/" "starter-kit-lisp-2.0.3/" "starter-kit-2.0.3/" "smex-1.1.1/" "ruby-mode-1.1/" "paredit-22/" "magit-1.0.0/" "inf-ruby-2.2.1/" "ido-ubiquitous-0.8/" "idle-highlight-mode-1.1.2/" "find-file-in-project-3.0/" "elisp-slime-nav-0.2/" "archives/" "../" "./")
+
+ ("/Users/savkin/.emacs.d/elpa/starter-kit-ruby-2.0.1/" (20176 8602) "starter-kit-ruby.elc" "starter-kit-ruby.el" "starter-kit-ruby-pkg.elc" "starter-kit-ruby-pkg.el" "starter-kit-ruby-autoloads.el" "../" "./")
+
+ ("/Users/savkin/projects/" (20168 2075) "workspace/" "ruby/" "java/" "clojure/" ".DS_Store" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

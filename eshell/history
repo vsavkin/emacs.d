@@ -1,0 +1,21 @@
+exit
+ls
+pwd
+cd ~/
+la
+ls
+ls
+cd bin
+la
+ls
+cd dotfiles/
+la
+ls
+cd emacs/
+ls
+mkdir ~/.emacs.d/vendor
+cp -r emacs-color-theme-solarized ~/.emacs.d/vendor
+cd ~/.emacs.d
+ls
+ls vendor/
+ls
