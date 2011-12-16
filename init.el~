@@ -19,7 +19,7 @@
 (setq ring-bell-function (lambda () ()))
 
 ;; color theme
-(set-default-font "Consolas-13")
+(set-default-font "Consolas-14")
 (require 'color-theme)
 (eval-after-load "color-theme"
   '(progn
@@ -27,10 +27,3 @@
 
 (global-linum-mode 1)
 (global-hl-line-mode)
-
-
-;; auto-complete
-(add-to-list 'load-path "~/.emacs.d/")
-(require 'auto-complete-config)
-(add-to-list 'ac-dictionary-directories "~/.emacs.d//ac-dict")
-(ac-config-default)

@@ -1,0 +1,8 @@
+* TODO
+** TODO Implement auth
+
+* IDEAS
+  - [ ] Always set the list name as a tag for all tasks
+  - [ ] Use interactive mode for moving elements
+  - [ ] Change numbers of elements when assigning priorities to them
+  - [ ] Remove numbers of elements to display them in smart lists

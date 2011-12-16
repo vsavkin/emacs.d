@@ -19,3 +19,14 @@ cd ~/.emacs.d
 ls
 ls vendor/
 ls
+ruby gateway.rb 
+cd ../../
+bundle exec ruby lib/rtm/gateway.rb 
+bundle exec ruby lib/rtm/gateway.rb 
+rvm
+rvm
+cd ~/projects/ruby/rtm/
+ls
+ruby -v
+rvm use 1.9.2
+ruby -v

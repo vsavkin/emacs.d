@@ -1,18 +1,18 @@
 
 ;; ----- smex-history -----
 (
+ load-file
+ package-install
+ list-packages
+ eshell
+ run-ruby
+ replace-string
  delete-trailing-whitespace
- menu-bar-showhide-tool-bar-menu-customize-enable-right
- set-fringe-style
- fringe-mode
- shrink-window-if-larger-than-buffer
- goto-line
- save-buffer
 )
 
 ;; ----- smex-data -----
 (
- (package-install . 11)
+ (package-install . 15)
  (package-refresh-contents . 1)
  (cua-mode . 3)
  (split-window-vertically . 1)
@@ -26,7 +26,7 @@
  (lisp-mode . 1)
  (run-lisp . 2)
  (clojure-jack-in . 6)
- (eshell . 2)
+ (eshell . 4)
  (color-theme-solarized-light . 6)
  (global-linum-mode . 1)
  (hl-line-mode . 1)
@@ -38,4 +38,9 @@
  (set-fringe-style . 1)
  (menu-bar-showhide-tool-bar-menu-customize-enable-right . 1)
  (delete-trailing-whitespace . 1)
+ (replace-string . 1)
+ (org-toggle-checkbox . 2)
+ (run-ruby . 1)
+ (list-packages . 1)
+ (load-file . 1)
 )
