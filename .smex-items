@@ -1,18 +1,18 @@
 
 ;; ----- smex-history -----
 (
- load-file
  package-install
+ customize-group
+ load-file
  list-packages
+ enable-theme
  eshell
- run-ruby
- replace-string
- delete-trailing-whitespace
+ eval-buffer
 )
 
 ;; ----- smex-data -----
 (
- (package-install . 15)
+ (package-install . 16)
  (package-refresh-contents . 1)
  (cua-mode . 3)
  (split-window-vertically . 1)
@@ -43,4 +43,8 @@
  (run-ruby . 1)
  (list-packages . 1)
  (load-file . 1)
+ (eproject-maybe-turn-on . 6)
+ (customize-group . 1)
+ (eproject-find-file . 5)
+ (eproject-open-all-project-files . 3)
 )

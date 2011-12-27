@@ -2,13 +2,21 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/savkin/projects/ruby/rtm/lib/" . "rtm/")
+ ("/Users/savkin/Public/" . "Drop Box/")
+ ("/Users/savkin/projects/ruby/typed_fields/spec/" . "typed_fields/")
+ ("/Users/savkin/projects/clojure/robots/src/" . "robots/")
+ ("/Users/savkin/projects/clojure/robots/test/robots/" . "test/")
+ ("/Users/savkin/projects/clojure/robots/test/" . "robots/")
+ ("/Users/savkin/projects/clojure/robots/" . "src/")
+ ("/Users/savkin/projects/clojure/" . "robots/")
  ("/Users/savkin/projects/ruby/rtm/" . "lib/")
  ("/Users/savkin/Downloads/" . "About Downloads.lpdf/")
  ("/Users/savkin/projects/ruby/jruby-parser/" . "bin/")
  ("/Users/savkin/projects/ruby/picard/" . "lib/")
- ("/Users/savkin/projects/ruby/" . "rtm/")
- ("/Users/savkin/projects/" . "ruby/")
- ("/Users/savkin/" . "projects/")
+ ("/Users/savkin/projects/ruby/" . "typed_fields/")
+ ("/Users/savkin/projects/" . "clojure/")
+ ("/Users/savkin/" . ".emacs.d/")
  ("/Users/" . "savkin/")
  ("/" . "Users/")
  ("/Users/savkin/bin/dotfiles/" . "zsh/")
@@ -17,8 +25,22 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/savkin/projects/ruby/rtm/lib/"
+ "/Users/savkin/projects/ruby/typed_fields/"
+ "/Users/savkin/.emacs.d/"
+ "/Users/savkin/Public/Drop Box/"
+ "/Users/savkin/projects/ruby/typed_fields/lib/"
+ "/Users/savkin/projects/ruby/typed_fields/spec/"
+ "/Users/savkin/projects/ruby/typed_fields/lib/typed_fields/"
+ "/Users/savkin/projects/ruby/typed_fields/spec/typed_fields/"
+ "/Users/savkin/"
+ "/Users/savkin/projects/clojure/robots/src/robots/"
+ "/Users/savkin/projects/ruby/rtm/spec/rtm/"
+ "/Users/savkin/projects/ruby/rtm/spec/"
  "/Users/savkin/projects/ruby/rtm/lib/rtm/"
  "/Users/savkin/projects/ruby/rtm/"
+ "/Users/savkin/projects/clojure/robots/"
+ "/Users/savkin/projects/clojure/robots/test/robots/test/"
  "/Users/savkin/Documents/"
  "/Users/savkin/Downloads/"
  "/Users/savkin/projects/ruby/jruby-parser/bin/"
@@ -28,28 +50,69 @@
 
 ;; ----- ido-work-file-list -----
 (
- "gateway.rb"
- "todo.org"
- "tasks.org"
- "article.txt"
- "example.rb"
- "generate_parser"
- "ast_helper.rb"
- "zshrc"
- "env"
+ "rtm.rb"
+ "Gemfile"
+ "init.el"
+ "post.org"
+ "typed_fields.rb"
+ "typed_fields_spec.rb"
+ "declaration.rb"
+ "declaration_spec.rb"
+ "README.md"
+ ".gitconfig"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/savkin/projects/ruby/rtm/lib/rtm/" (20201 61836) "version.rb" "signer.rb" "gateway.rb" "command_reader.rb" "application.rb" "#gateway.rb#" "../" "./")
+ ("/Users/savkin/projects/ruby/rtm/lib/rtm/" (20207 13661) "version.rb" "store.rb" "signer.rb" "repository.rb" "gateway.rb" "engine.rb" "domain.rb" "command_reader.rb" "application.rb" "../" "./")
 
- ("/Users/savkin/" (20201 62282) "run_emacs.sh" "Public/" "projects/" "Pictures/" "Music/" "Movies/" "Library/" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "bin/" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump" ".viminfo" ".vim/" ".Trash/" ".rvm/" ".recentf" ".oh-my-zsh/" ".m2/" ".lein/" ".irb_history" ".ido.last" ".gitconfig" ".gem/" ".emacs.d/" ".DS_Store" ".dropbox/" ".CFUserTextEncoding" ".bash_profile" ".bash_history" "#.CFUserTextEncoding#" "../" "./")
+ ("/Users/savkin/projects/ruby/rtm/" (20218 18152) "todo.org" "spec/" "rtm.gemspec" "Rakefile" "lib/" "Gemfile.lock" "Gemfile" "eproject.cfg" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/savkin/.emacs.d/" (20218 17279) "vendor/" "url/" "swank/" "popup.elc" "popup.el" "places" "init.el~" "init.el" "fuzzy.elc" "fuzzy.el" "eshell/" "elpa/" "bookmarks" "backups/" "auto-save-list/" "auto-complete.elc" "auto-complete.el" "auto-complete-config.elc" "auto-complete-config.el" "ac-dict/" "ac-comphist.dat" ".smex-items" ".git/" "../" "./")
+
+ ("/Users/savkin/" (20218 17290) "run_emacs.sh" "Public/" "projects/" "Pictures/" "Music/" "Movies/" "Library/" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "bin/" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump" ".viminfo" ".vim/" ".Trash/" ".ssh/" ".slime-history.eld" ".rvm/" ".recentf" ".oh-my-zsh/" ".m2/" ".lein/" ".jline-clojure.main.history" ".irb_history" ".irb-history" ".ido.last" ".gitconfig" ".gem/" ".erlang.cookie" ".emacs.d/" ".DS_Store" ".dropbox/" ".CFUserTextEncoding" ".bash_profile" ".bash_history" "#.CFUserTextEncoding#" "../" "./")
+
+ ("/Users/savkin/.emacs.d/vendor/" (20218 17170) "eproject/" "emacs-color-theme-solarized/" "../" "./")
+
+ ("/Users/savkin/.emacs.d/vendor/eproject/" (20218 17171) "lang/" "eproject.el" "eproject-tests.el" "eproject-extras.el" "contrib/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/savkin/Public/Drop Box/" (20190 45293) ".localized" "../" "./")
+
+ ("/Users/savkin/Public/" (20216 51295) "Drop Box/" ".localized" ".DS_Store" ".com.apple.timemachine.supported" "../" "./")
+
+ ("/Users/savkin/projects/ruby/typed_fields/" (20216 45629) "typed_fields.gemspec" "spec/" "README.md" "Rakefile" "lib/" "Gemfile.lock" "Gemfile" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/savkin/projects/ruby/typed_fields/lib/" (20216 47330) "typed_fields.rb" "typed_fields/" "../" "./")
+
+ ("/Users/savkin/projects/ruby/typed_fields/lib/typed_fields/" (20216 45629) "version.rb" "../" "./")
+
+ ("/Users/savkin/projects/ruby/typed_fields/spec/" (20216 45629) "typed_fields_spec.rb" "spec_helper.rb" "../" "./")
+
+ ("/Users/savkin/projects/ruby/typed_fields/spec/typed_fields/" (20215 27606) "declaration_spec.rb" "../" "./")
+
+ ("/Users/savkin/projects/ruby/" (20211 10388) "typed_fields/" "ruby-macro/" "rtm/" "picard/" "jruby-parser/" "../" "./")
+
+ ("/Users/savkin/projects/ruby/rtm/spec/" (20206 34621) "spec_helper.rb" "rtm/" "../" "./")
+
+ ("/Users/savkin/projects/ruby/rtm/spec/rtm/" (20207 13770) "store_spec.rb" "signer_spec.rb" "repository_spec.rb" "engine_spec.rb" "domain_spec.rb" "command_reader_spec.rb" "application_spec.rb" ".#engine_spec.rb" "#engine_spec.rb#" "../" "./")
+
+ ("/Users/savkin/projects/clojure/robots/" (20206 18190) "test/" "src/" "robots.iml" "robots-1.0.0-SNAPSHOT.jar" "README" "project.clj" "pom.xml" "lib/" "classes/" ".lein-failures" ".lein-deps-sum" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/savkin/projects/clojure/robots/test/robots/test/" (20206 15537) "serialization.clj" "game.clj" "core.clj" ".#game.clj" "#game.clj#" "../" "./")
+
+ ("/Users/savkin/projects/clojure/robots/src/robots/" (20206 17603) "server.clj" "serialization.clj" "queue.clj" "notifier.clj" "game.clj" "core.clj" "../" "./")
+
+ ("/Users/savkin/projects/clojure/robots/src/" (20190 57070) "robots/" "../" "./")
+
+ ("/Users/savkin/projects/clojure/robots/lib/" (20191 26171) "commons-io-1.2.jar" "commons-cli-1.1.jar" "clojure-contrib-1.2.0.jar" "clojure-1.3.0.jar" "amqp-client-2.7.0.jar" "../" "./")
+
+ ("/Users/savkin/projects/clojure/robots/test/robots/" (20190 57070) "test/" "../" "./")
+
+ ("/Users/savkin/projects/clojure/robots/test/" (20190 57070) "robots/" "../" "./")
+
+ ("/Users/savkin/projects/clojure/" (20190 57111) "robots/" "../" "./")
 
  ("/Users/savkin/projects/ruby/rtm/lib/" (20200 3838) "rtm.rb" "rtm/" "../" "./")
-
- ("/Users/savkin/projects/ruby/rtm/" (20201 23213) "todo.org" "spec/" "rtm.gemspec" "Rakefile" "lib/" "Gemfile.lock" "Gemfile" ".gitignore" ".git/" "../" "./")
-
- ("/Users/savkin/projects/ruby/" (20200 3836) "ruby-macro/" "rtm/" "picard/" "jruby-parser/" "../" "./")
 
  ("/Users/savkin/Documents/" (20197 26372) "tasks.org" "About Stacks.lpdf/" ".localized" "../" "./")
 
