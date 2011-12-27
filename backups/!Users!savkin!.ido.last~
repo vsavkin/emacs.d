@@ -25,20 +25,20 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/Users/savkin/projects/ruby/rtm/lib/"
+ "/Users/savkin/projects/ruby/typed_fields/lib/typed_fields/"
  "/Users/savkin/projects/ruby/typed_fields/"
+ "/Users/savkin/projects/ruby/rtm/"
+ "/Users/savkin/projects/ruby/rtm/lib/"
  "/Users/savkin/.emacs.d/"
  "/Users/savkin/Public/Drop Box/"
  "/Users/savkin/projects/ruby/typed_fields/lib/"
  "/Users/savkin/projects/ruby/typed_fields/spec/"
- "/Users/savkin/projects/ruby/typed_fields/lib/typed_fields/"
  "/Users/savkin/projects/ruby/typed_fields/spec/typed_fields/"
  "/Users/savkin/"
  "/Users/savkin/projects/clojure/robots/src/robots/"
  "/Users/savkin/projects/ruby/rtm/spec/rtm/"
  "/Users/savkin/projects/ruby/rtm/spec/"
  "/Users/savkin/projects/ruby/rtm/lib/rtm/"
- "/Users/savkin/projects/ruby/rtm/"
  "/Users/savkin/projects/clojure/robots/"
  "/Users/savkin/projects/clojure/robots/test/robots/test/"
  "/Users/savkin/Documents/"
@@ -50,8 +50,9 @@
 
 ;; ----- ido-work-file-list -----
 (
- "rtm.rb"
+ "version.rb"
  "Gemfile"
+ "rtm.rb"
  "init.el"
  "post.org"
  "typed_fields.rb"
@@ -59,16 +60,15 @@
  "declaration.rb"
  "declaration_spec.rb"
  "README.md"
- ".gitconfig"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/Users/savkin/.emacs.d/" (20218 20086) "vendor/" "url/" "swank/" "popup.elc" "popup.el" "places" "init.el~" "init.el" "fuzzy.elc" "fuzzy.el" "eshell/" "elpa/" "bookmarks" "backups/" "auto-save-list/" "auto-complete.elc" "auto-complete.el" "auto-complete-config.elc" "auto-complete-config.el" "ac-dict/" "ac-comphist.dat" ".smex-items" ".git/" "../" "./")
+
+ ("/Users/savkin/projects/ruby/rtm/" (20218 19913) "todo.org" "spec/" "rtm.gemspec" "Rakefile" "lib/" "Gemfile.lock" "Gemfile" "eproject.cfg" ".gitignore" ".git/" "#Gemfile#" "../" "./")
+
  ("/Users/savkin/projects/ruby/rtm/lib/rtm/" (20207 13661) "version.rb" "store.rb" "signer.rb" "repository.rb" "gateway.rb" "engine.rb" "domain.rb" "command_reader.rb" "application.rb" "../" "./")
-
- ("/Users/savkin/projects/ruby/rtm/" (20218 18152) "todo.org" "spec/" "rtm.gemspec" "Rakefile" "lib/" "Gemfile.lock" "Gemfile" "eproject.cfg" ".gitignore" ".git/" "../" "./")
-
- ("/Users/savkin/.emacs.d/" (20218 17279) "vendor/" "url/" "swank/" "popup.elc" "popup.el" "places" "init.el~" "init.el" "fuzzy.elc" "fuzzy.el" "eshell/" "elpa/" "bookmarks" "backups/" "auto-save-list/" "auto-complete.elc" "auto-complete.el" "auto-complete-config.elc" "auto-complete-config.el" "ac-dict/" "ac-comphist.dat" ".smex-items" ".git/" "../" "./")
 
  ("/Users/savkin/" (20218 17290) "run_emacs.sh" "Public/" "projects/" "Pictures/" "Music/" "Movies/" "Library/" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "bin/" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump" ".viminfo" ".vim/" ".Trash/" ".ssh/" ".slime-history.eld" ".rvm/" ".recentf" ".oh-my-zsh/" ".m2/" ".lein/" ".jline-clojure.main.history" ".irb_history" ".irb-history" ".ido.last" ".gitconfig" ".gem/" ".erlang.cookie" ".emacs.d/" ".DS_Store" ".dropbox/" ".CFUserTextEncoding" ".bash_profile" ".bash_history" "#.CFUserTextEncoding#" "../" "./")
 

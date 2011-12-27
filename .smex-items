@@ -3,16 +3,16 @@
 (
  package-install
  customize-group
- load-file
- list-packages
  enable-theme
  eshell
  eval-buffer
+ flymake-mode
+ cua-mode
 )
 
 ;; ----- smex-data -----
 (
- (package-install . 16)
+ (package-install . 18)
  (package-refresh-contents . 1)
  (cua-mode . 3)
  (split-window-vertically . 1)
@@ -43,8 +43,13 @@
  (run-ruby . 1)
  (list-packages . 1)
  (load-file . 1)
- (eproject-maybe-turn-on . 6)
+ (eproject-maybe-turn-on . 7)
  (customize-group . 1)
- (eproject-find-file . 5)
- (eproject-open-all-project-files . 3)
+ (eproject-find-file . 6)
+ (eproject-open-all-project-files . 4)
+ (eproject-mode . 2)
+ (eproject-ifind-file . 2)
+ (anything . 4)
+ (anything-for-buffers . 4)
+ (vsavkin-anything . 3)
 )

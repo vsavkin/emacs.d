@@ -59,3 +59,35 @@
 (.emacs-eproject-key "o" eproject-open-all-project-files)
 
 (define-project-type ruby (generic-git) (look-for "Gemfile"))
+
+;; anything.el
+(defvar anything-c-source-eproject-files
+  '((name . "Files in eProject")
+    (init . (lambda () (if (buffer-file-name)
+			   (setq anything-eproject-root-dir (eproject-maybe-turn-on))
+			   (setq anything-eproject-root-dir 'nil)
+			   )))
+    (candidates . (lambda () (if anything-eproject-root-dir
+				 (eproject-list-project-files anything-eproject-root-dir))))
+    (type . file))
+  "Search for files in the current eProject.")
+
+(defvar anything-c-source-eproject-buffers
+  '((name . "Buffers in this eProject")
+    (init . (lambda () (if (buffer-file-name)
+			   (setq anything-eproject-root-dir (eproject-maybe-turn-on))
+			   (setq anything-eproject-root-dir 'nil))))
+    (candidates . (lambda () (if anything-eproject-root-dir
+				 (mapcar 'buffer-name  ( cdr  (assoc anything-eproject-root-dir (eproject--project-buffers)))))))
+    (volatile)
+    (type . buffer))
+  "Search for buffers in this project.")
+
+(defun vsavkin-anything ()
+  "Preconfigured `anything' for opening buffers. Searches for buffers in the current project, then other buffers, also gives option of recentf. Replaces switch-to-buffer."
+  (interactive)
+  (anything '(anything-c-source-eproject-buffers
+	      anything-c-source-eproject-files
+	      )))
+
+(global-set-key "\C-xq" 'vsavkin-anything)
