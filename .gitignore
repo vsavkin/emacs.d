@@ -1,4 +1,4 @@
 *.smex-items
-backups
+backups/*
 ac-comphist.dat
 places
