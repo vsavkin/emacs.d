@@ -1,3 +1,0 @@
-(ns robots.core)
-
-(io! (.println "emulating io"))
